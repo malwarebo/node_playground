@@ -21,7 +21,8 @@
   "homepage": "https://github.com/malwarebo/node_training#readme",
   "dependencies": {
     "create-react-app": "^4.0.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socketio": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
