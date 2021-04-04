@@ -3,6 +3,8 @@ const path = require('path');
 const cookieSession = require('cookie-session');
 const FeedbackService = require('./services/FeedbackService');
 const SpeakerService = require('./services/SpeakerService');
+const createError = require('http-errors');
+const bodyParser = require('body-parser');
 
 const feedbackService = new FeedbackService('./data/feedback.json');
 const speakerService = new SpeakerService('./data/speakers.json');
@@ -22,6 +24,8 @@ app.use(
     keys: ['Rand123sjdnwehr83', '47ry3fb38ry347dsubdwe7'],
   })
 );
+
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // Set the view engine {ejs}
 app.set('view engine', 'ejs');
@@ -48,6 +52,17 @@ app.use(
   })
 );
 
+app.use((request, response, next) => {
+  return next(createError(404, 'File not found'));
+});
+
+app.use((err, request, response, next) => {
+  response.locals.message = err.message;
+  const status = err.status || 500;
+  response.locals.status = status;
+  response.status(status);
+  response.render('error');
+});
 app.listen(port, () => {
   console.log(`Express server listening on port ${port}`);
 });
