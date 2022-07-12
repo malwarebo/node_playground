@@ -23,7 +23,7 @@
     "debug": "4.3.2",
     "fluent-logger-node": "0.0.3",
     "google-auth-library": "8.1.0",
-    "ioredis": "4.28.5",
+    "ioredis": "5.2.0",
     "joi": "17.6.0",
     "badge-maker": "^3.3.1",
     "body-scroll-lock": "^3.1.5",
