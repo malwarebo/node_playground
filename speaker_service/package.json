@@ -128,7 +128,7 @@
     "jest": "^27.5.0",
     "jest-axe": "^5.0.1",
     "jest-fetch-mock": "^3.0.3",
-    "jest-junit": "^13.0.0",
+    "jest-junit": "^14.0.0",
     "jest-mock-console": "^1.2.3",
     "jest-plugin-unhandled-promise": "^2.9.0",
     "jest-styled-components": "^7.0.8",
