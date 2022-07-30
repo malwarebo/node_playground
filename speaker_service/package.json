@@ -32,7 +32,7 @@
     "bunyan": "^1.8.15",
     "cacheable-lookup": "^6.0.4",
     "connected-react-router": "^6.9.2",
-    "cookie": "^0.4.2",
+    "cookie": "^0.5.0",
     "cookie-parser": "^1.4.6",
     "copy-to-clipboard": "^3.3.1",
     "countup.js": "^2.0.8",
