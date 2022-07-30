@@ -159,7 +159,7 @@
     "webpack-node-externals": "^3.0.0",
     "webpack-retry-chunk-load-plugin": "^1.5.0",
     "webpack-subresource-integrity": "^1.5.2",
-    "yaml-loader": "0.6.0",
+    "yaml-loader": "0.8.0",
     "supertest": "6.2.1",
     "swagger-tools": "0.10.4",
     "ts-node": "10.9.1",
