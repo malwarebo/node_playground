@@ -126,7 +126,7 @@
     "sinon": "13.0.1",
     "sinon-chai": "3.7.0",
     "jest": "^27.5.0",
-    "jest-axe": "^5.0.1",
+    "jest-axe": "^6.0.0",
     "jest-fetch-mock": "^3.0.3",
     "jest-junit": "^14.0.0",
     "jest-mock-console": "^1.2.3",
