@@ -135,7 +135,7 @@
     "jest-watch-master": "^1.0.0",
     "jest-when": "^2.8.1",
     "json-loader": "^0.5.7",
-    "lint-staged": "^12.3.3",
+    "lint-staged": "^13.0.3",
     "memfs": "^3.4.1",
     "mutation-testing-metrics": "^1.7.10",
     "postcss": "^8.4.6",
